@@ -1,0 +1,35 @@
+[2026-08-25 13:31:01] [INFO] Starting with STU001
+[2026-08-25 13:31:01] [INFO] Student ID generation succesful
+[2026-08-25 13:31:05] [WARNING] Program stopped by user
+[2026-08-25 13:31:05] [INFO] Program execution completed
+[2026-08-25 13:31:05] [INFO] Registration Summary | Accepted: 0 | Rejected: 0
+[2026-08-25 13:31:10] [INFO] Starting with STU001
+[2026-08-25 13:31:10] [INFO] Student ID generation succesful
+[2026-08-25 13:31:17] [WARNING] Program stopped by user
+[2026-08-25 13:31:17] [INFO] Program execution completed
+[2026-08-25 13:31:17] [INFO] Registration Summary | Accepted: 0 | Rejected: 0
+[2026-08-25 13:54:08] [INFO] Starting with STU001
+[2026-08-25 13:54:08] [INFO] Student ID generation succesful
+[2026-08-25 13:54:17] [ERROR] Invalid age input | invalid literal for int() with base 10: 'abcd'
+[2026-08-25 13:54:35] [INFO] UUID generated for STU001: a1e025d9-6d92-4891-a4c5-d47800b9c722
+[2026-08-25 13:54:35] [INFO] Student data saved in students.txt
+[2026-08-25 13:54:35] [INFO] UUID saved for STU001
+[2026-08-25 13:54:35] [INFO] Output data saved for STU001
+[2026-08-25 13:54:35] [INFO] JSON data saved for STU001
+[2026-08-25 13:54:35] [INFO] JSON process completed
+[2026-08-25 13:54:35] [INFO] Student data saving process completed
+[2026-08-25 13:54:35] [INFO] STU001 accepted and stored
+[2026-08-25 13:54:35] [INFO] Program execution completed
+[2026-08-25 13:54:35] [INFO] Registration Summary | Accepted: 1 | Rejected: 1
+[2026-08-25 13:54:55] [INFO] Student ID generated: STU002
+[2026-08-25 13:54:55] [INFO] Student ID generation succesful
+[2026-08-25 13:55:41] [INFO] UUID generated for STU002: f404f947-310c-4535-bf99-3dbd4c46b1fa
+[2026-08-25 13:55:41] [INFO] Student data saved in students.txt
+[2026-08-25 13:55:41] [INFO] UUID saved for STU002
+[2026-08-25 13:55:41] [INFO] Output data saved for STU002
+[2026-08-25 13:55:41] [INFO] JSON data saved for STU002
+[2026-08-25 13:55:41] [INFO] JSON process completed
+[2026-08-25 13:55:41] [INFO] Student data saving process completed
+[2026-08-25 13:55:41] [INFO] STU002 accepted and stored
+[2026-08-25 13:55:41] [INFO] Program execution completed
+[2026-08-25 13:55:41] [INFO] Registration Summary | Accepted: 1 | Rejected: 0

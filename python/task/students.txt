@@ -1,0 +1,2 @@
+STU001,jayant kumar,22,jayant@gmail.com,mirganj,india
+STU002,kumar,12,kumar@gmail.com,balahata,usa

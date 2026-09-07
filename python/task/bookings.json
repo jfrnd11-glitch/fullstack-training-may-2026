@@ -1,0 +1,120 @@
+{
+    "tables": [
+        {
+            "table_id": "T1",
+            "table_size": "2 Seater"
+        },
+        {
+            "table_id": "T2",
+            "table_size": "2 Seater"
+        },
+        {
+            "table_id": "T3",
+            "table_size": "2 Seater"
+        },
+        {
+            "table_id": "T4",
+            "table_size": "2 Seater"
+        },
+        {
+            "table_id": "T5",
+            "table_size": "2 Seater"
+        },
+        {
+            "table_id": "T6",
+            "table_size": "2 Seater"
+        },
+        {
+            "table_id": "T7",
+            "table_size": "2 Seater"
+        },
+        {
+            "table_id": "T8",
+            "table_size": "2 Seater"
+        },
+        {
+            "table_id": "T9",
+            "table_size": "2 Seater"
+        },
+        {
+            "table_id": "T10",
+            "table_size": "2 Seater"
+        },
+        {
+            "table_id": "T11",
+            "table_size": "4 Seater"
+        },
+        {
+            "table_id": "T12",
+            "table_size": "4 Seater"
+        },
+        {
+            "table_id": "T13",
+            "table_size": "4 Seater"
+        },
+        {
+            "table_id": "T14",
+            "table_size": "4 Seater"
+        },
+        {
+            "table_id": "T15",
+            "table_size": "4 Seater"
+        },
+        {
+            "table_id": "T16",
+            "table_size": "4 Seater"
+        },
+        {
+            "table_id": "T17",
+            "table_size": "4 Seater"
+        },
+        {
+            "table_id": "T18",
+            "table_size": "4 Seater"
+        },
+        {
+            "table_id": "T19",
+            "table_size": "4 Seater"
+        },
+        {
+            "table_id": "T20",
+            "table_size": "4 Seater"
+        },
+        {
+            "table_id": "T21",
+            "table_size": "6 Seater"
+        },
+        {
+            "table_id": "T22",
+            "table_size": "6 Seater"
+        },
+        {
+            "table_id": "T23",
+            "table_size": "6 Seater"
+        },
+        {
+            "table_id": "T24",
+            "table_size": "6 Seater"
+        },
+        {
+            "table_id": "T25",
+            "table_size": "6 Seater"
+        }
+    ],
+    "bookings": [
+        {
+            "customer_name": "abhi",
+            "table_id": "T19",
+            "table_size": "4 Seater",
+            "start": "02:03",
+            "end": "3:00"
+        },
+        {
+            "customer_name": "aryan",
+            "table_id": "T23",
+            "table_size": "6 Seater",
+            "start": "10:00",
+            "end": "12:00"
+        }
+    ]
+}

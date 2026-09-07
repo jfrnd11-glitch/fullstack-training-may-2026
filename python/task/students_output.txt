@@ -1,0 +1,18 @@
+ID: STU001
+Name: jayant kumar
+Age: 22
+Email: jayant@gmail.com
+Location: mirganj, india
+UUID: a1e025d9-6d92-4891-a4c5-d47800b9c722
+Date: 25-08-2026
+Time: 01:54:35
+
+ID: STU002
+Name: kumar
+Age: 12
+Email: kumar@gmail.com
+Location: balahata, usa
+UUID: f404f947-310c-4535-bf99-3dbd4c46b1fa
+Date: 25-08-2026
+Time: 01:55:41
+
