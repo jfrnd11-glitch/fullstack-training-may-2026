@@ -1,0 +1,3 @@
+from auth import main_menu # YE FUNCTION AUTH ME SE MAIN MENU KA DEKHTA HAI
+
+main_menu()# YE MAIN MENU KO CALL KAREGA
