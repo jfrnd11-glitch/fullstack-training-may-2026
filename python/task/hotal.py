@@ -185,7 +185,7 @@ def main():
         print("\n\n========== RESTAURANT ==========")
         print("1 = New Customer Booking")
         print("2 = Display All Bookings")
-        print("3 = Table Availability")
+        print("3 = available table")
         print("4 = Exit")
         print("================================")
         choice = input("Please enter your choice: ")
@@ -197,7 +197,7 @@ def main():
             data = load_data()
             show_availability(data)
         elif choice == "4":
-            print("\nThank you! Restaurant closed.")
+            print("\nThank you! vist again.")
             break
         else:
             print("\nInvalid choice!")
