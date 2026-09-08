@@ -55,12 +55,10 @@ def load_data():
 
         return []
 
-
 def save_data(data):
 
     with open(FILE_NAME, "w") as file:
         json.dump(data, file, indent=4)
-
 
 def show_availability(data):
 
@@ -88,24 +86,18 @@ def show_availability(data):
 
     print("--------------------------------------")
 
-
 def booking():
 
     data = load_data()
 
     print("\n--------- New Customer Booking ---------")
 
-    # Customer Name
     customer_name = input("Please enter customer name: ")
 
     if customer_name.strip() == "":
         print("Customer name cannot be empty!")
         return
-
-    # Show availability
     show_availability(data)
-
-    # Table Size
     print("\n1 = 2 Seater")
     print("2 = 4 Seater")
     print("3 = 6 Seater")
@@ -113,57 +105,36 @@ def booking():
     choice = input("Please select table size: ")
 
     if choice == "1":
-
         table_size = "2 Seater"
-
     elif choice == "2":
-
         table_size = "4 Seater"
-
     elif choice == "3":
-
         table_size = "6 Seater"
-
     else:
 
         print("Invalid choice!")
         return
-
-    # Already booked IDs
     booked_ids = []
-
     for booking_data in data:
         booked_ids.append(booking_data["table_id"])
 
-    # Find available tables
     available_tables = []
-
     for table_id in tables[table_size]["ids"]:
 
         if table_id not in booked_ids:
             available_tables.append(table_id)
-
-    # Check availability
     if len(available_tables) == 0:
-
         print("\nSorry!")
         print("No", table_size, "table available.")
 
         return
-
-    # Automatically assign first available table
     table_id = available_tables[0]
-
     table_seat = tables[table_size]["seat"]
-
     print("\nYour Table ID :", table_id)
     print("Table Size    :", table_size)
     print("Table Seat    :", table_seat)
 
-    # Duration
     table_duration = input("Please enter table duration: ")
-
-    # Create Object
     obj = Dispay(
         customer_name,
         table_id,
@@ -171,8 +142,6 @@ def booking():
         table_seat,
         table_duration
     )
-
-    # JSON Data
     booking_data = {
         "customer_name": customer_name,
         "table_id": table_id,
@@ -180,12 +149,8 @@ def booking():
         "table_seat": table_seat,
         "table_duration": table_duration
     }
-
-    # Save booking
     data.append(booking_data)
-
     save_data(data)
-
     print("\n---------- Booking Successful ----------")
     print("Customer Name  :", customer_name)
     print("Table ID       :", table_id)
@@ -193,26 +158,16 @@ def booking():
     print("Table Seat     :", table_seat)
     print("Table Duration :", table_duration)
 
-    # Remaining table
     remaining = len(available_tables) - 1
-
     print("\nRemaining", table_size, ":", remaining)
 
-
 def display_all_bookings():
-
     data = load_data()
-
     print("\n========== ALL BOOKINGS ==========")
-
     if len(data) == 0:
-
         print("No booking available.")
-
         return
-
     for i, booking_data in enumerate(data, start=1):
-
         print("\nBooking", i)
         print("--------------------------------")
         print("Customer Name  :", booking_data["customer_name"])
@@ -222,7 +177,6 @@ def display_all_bookings():
         print("Table Duration :", booking_data["table_duration"])
 
     print("=================================")
-
 
 def main():
 
@@ -234,30 +188,17 @@ def main():
         print("3 = Table Availability")
         print("4 = Exit")
         print("================================")
-
         choice = input("Please enter your choice: ")
-
         if choice == "1":
-
             booking()
-
         elif choice == "2":
-
             display_all_bookings()
-
         elif choice == "3":
-
             data = load_data()
             show_availability(data)
-
         elif choice == "4":
-
             print("\nThank you! Restaurant closed.")
             break
-
         else:
-
             print("\nInvalid choice!")
-
-
 main()

@@ -1,0 +1,16 @@
+[
+    {
+        "customer_name": "jayant kumar",
+        "table_id": "T01",
+        "table_size": "2 Seater",
+        "table_seat": 2,
+        "table_duration": "5 hour"
+    },
+    {
+        "customer_name": "sumit kumar",
+        "table_id": "T11",
+        "table_size": "4 Seater",
+        "table_seat": 4,
+        "table_duration": "8 hour"
+    }
+]
